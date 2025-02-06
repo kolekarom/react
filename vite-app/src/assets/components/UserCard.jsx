@@ -1,10 +1,11 @@
+import React from "react"
+import "./UserCard.css"
 
-
-const UserCard = () => {
+const UserCard = (props) => {
   return (
     <div>
-      <p>this is first
-
+      <p>
+      {props.name}
       </p>
       <h1>
 
